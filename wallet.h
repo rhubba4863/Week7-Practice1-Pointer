@@ -29,7 +29,7 @@ public:
         accountSue = accountSue + cashChange;
     }
     void updateCurrent(double amount) {
-        if (pCurrentAccount == &accountSam)
+        if (pCurrentAccount == &accountSam) 
         {
             updateSam(amount);
         }
